@@ -1,0 +1,121 @@
+.success-msg {
+  width: 100%;
+  height: 50px;
+  background-color: #d1e7dd;
+  border: 1px solid #badbcc;
+}
+
+.success-msg__txt {
+  color: #0f5132;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.error-msg {
+  width: 100%;
+  height: 50px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c2c7;
+}
+
+.error-msg__txt {
+  font-weight: bold;
+  color: #842029;
+  padding: 10px;
+}
+
+.category{
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 1230px;
+}
+
+.category__create-form{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.category__create-form-txt{
+  padding: 10px;
+  width: 70%;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.category__create-form-btn{
+  margin-left: 30px;
+  width: 20%;
+  color: #fff;
+  background: #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.category-list{
+  margin: 50px auto 0;
+  width: 60%;
+  text-align: left;
+}
+
+.category-list__ttl{
+  width: 20%;
+  padding: 12px 0;
+  font-weight: bold;
+
+}
+
+.category-list__row{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.category-list__row-item{
+  padding: 10px;
+    width: 100%;
+    height: 30px;
+    
+}
+
+
+.update-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.update-form__txt{
+  display: inline-block;
+  width: 80%;
+  outline: none;
+  border: none;
+}
+
+.update-form__button{
+    padding: 5px;
+    margin-right: 0;
+    width: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #0000ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete-form__btn{
+  width: 50px;
+}
+
+.delete-form__btn-btn{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}

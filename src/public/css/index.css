@@ -36,21 +36,31 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: 70%;
-    -align: center;
+  width: 60%;
+  -align: center;
+}
+
+h2{
+  width: 60%;
+  margin: 10px auto;
 }
 
 .todo__create-form-txt {
   padding: 10px;
-  width: 100%;
+  width: 50%;
   height: 40px;
   border: 1px solid #ddd;
   border-radius: 3px;
 }
 
+.todo__create-form-category{
+  width: 20%;
+  margin: 0 10px;
+}
+
 .todo__create-form-btn{
-  margin-left: 10px;
-  width: 100px;
+  margin-left: 30px;
+  width: 25%;
   color: #fff;
   background: #000;
   border-radius: 3px;
@@ -60,7 +70,7 @@
 
 .todo-list__content {
   margin: 50px auto 0;
-  width: 70%;
+  width: 60%;
   text-align: left;
 }
 

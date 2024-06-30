@@ -14,7 +14,10 @@
 <body>
   <header>
     <div class="header__logo">
-      <h1>Todo</h1>
+      <a href="/">Todo</a>
+    </div>
+    <div class="header__menu">
+      <a href="/categories" class="header__menu-link">カテゴリ一覧</a>
     </div>
   </header>
 <main>
